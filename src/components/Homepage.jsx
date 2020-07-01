@@ -1,5 +1,9 @@
 import React from "react";
 
 export default function Homepage() {
-  return <div></div>;
+  return (
+    <main className="main">
+      <p>This is home</p>
+    </main>
+  );
 }

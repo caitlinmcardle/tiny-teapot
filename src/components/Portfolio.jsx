@@ -1,5 +1,9 @@
 import React from "react";
 
 export default function Portfolio() {
-  return <div></div>;
+  return (
+    <main className="main">
+      <p>this is portfolio</p>
+    </main>
+  );
 }
