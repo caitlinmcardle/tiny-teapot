@@ -6,9 +6,9 @@
 }
 .nav {
   grid-area: "nav";
-  border: 1px solid darkorchid;
+  border: none;
   display: flex;
-  align-items: center;
+  background-color: #ff8484;
 }
 .main {
   grid-area: "main";
@@ -22,13 +22,16 @@
 }
 .nav-link {
   text-decoration: none;
+  color: white;
 }
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  align-items: center;
 }
 li {
   display: inline;
-  padding: 10px;
+  padding: 2rem;
 }
