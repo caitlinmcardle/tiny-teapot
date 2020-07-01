@@ -12,7 +12,6 @@
 }
 .main {
   grid-area: "main";
-  border: 1px solid blue;
 }
 .nav-ul {
   margin: 0;
@@ -34,4 +33,9 @@ ul {
 li {
   display: inline;
   padding: 2rem;
+}
+#background-video {
+  height: auto;
+  width: 100vw;
+  top: 0;
 }
