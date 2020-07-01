@@ -1,3 +1,6 @@
 .App {
   text-align: center;
+  display: grid;
+  grid-template-rows: 15% auto;
+  grid-template-areas: "nav" "main";
 }
