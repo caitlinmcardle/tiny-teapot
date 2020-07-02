@@ -99,7 +99,7 @@ h3 {
 .about-section {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
-  grid-template-rows: 325px 150px 80px 200px;
+  grid-template-rows: 400px 200px 100px 300px;
 }
 .tea-countup-section {
   grid-column: 2/3;
@@ -114,6 +114,7 @@ h3 {
 .about-us {
   grid-column: 2/4;
   grid-row: 1/2;
+  align-self: center;
 }
 
 .donut-1 {
@@ -134,6 +135,7 @@ h3 {
 
 p {
   margin: 10px;
+  font-size: 20px;
 }
 h1 {
   margin: 20px;
