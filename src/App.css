@@ -79,3 +79,13 @@ li {
   border: 2px solid #ff8484;
   color: #ff8484;
 }
+h1 {
+  font-family: "Roboto", sans-serif;
+  color: #ff8484;
+  font-size: 60px;
+}
+h2,
+h3 {
+  font-family: "Roboto", sans-serif;
+  color: #ff8484;
+}
