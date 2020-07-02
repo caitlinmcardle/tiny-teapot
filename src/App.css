@@ -144,3 +144,31 @@ h1 {
 h2 {
   font-size: 30px;
 }
+h3 {
+  font-size: 25px;
+}
+.services-section {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 100px 320px 320px;
+}
+.services-header {
+  grid-column: 2/4;
+  grid-row: 1/2;
+}
+.services-web-design {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+.services-web-dev {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+.services-maintenance {
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+.services-seo {
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
