@@ -3,7 +3,7 @@ import React from "react";
 export default function Portfolio() {
   return (
     <main className="main">
-      <p>this is portfolio</p>
+      <h1>Coming soon...</h1>
     </main>
   );
 }

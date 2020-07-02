@@ -11,8 +11,8 @@ export default function Services() {
       </p>
       <h3>Web Development</h3>
       <p>
-        We use React (the same thing used to create Facebook) to produce fast,
-        reliable and scalable websites that are SEO friendly.
+        We use React (created and used by Facebook) to produce fast, reliable
+        and scalable websites that are SEO friendly.
       </p>
       <h3>Maintenance</h3>
       <p>

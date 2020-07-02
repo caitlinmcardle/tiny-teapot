@@ -3,7 +3,25 @@ import React from "react";
 export default function Contact() {
   return (
     <main className="main">
-      <p>This is contact</p>
+      <h1>Get in touch</h1>
+      <p>Email: caitlin@tinyteapotdesign.com</p>
+      <p>LinkedIn</p>
+      <h2>Send a quick message</h2>
+      <form>
+        <p className="table-row">
+          <label for="name">Name: </label>
+          <input id="name" type="text" />
+        </p>
+        <p className="table-row">
+          <label for="email">Email: </label>
+          <input id="email" type="text" />
+        </p>
+        <p className="table-row">
+          <label for="message">Message: </label>
+          <input id="message" type="text" />
+        </p>
+        <button type="submit">Send</button>
+      </form>
     </main>
   );
 }
