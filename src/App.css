@@ -89,3 +89,56 @@ h3 {
   font-family: "Roboto", sans-serif;
   color: #ff8484;
 }
+.tea-countup {
+  font-size: 40px;
+  grid-area: "tea-countup";
+}
+.code-countup {
+  font-size: 40px;
+}
+.about-section {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 325px 150px 80px 200px;
+}
+.tea-countup-section {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  align-self: center;
+}
+.code-countup-section {
+  grid-column: 3/4;
+  grid-row: 2/3;
+  align-self: center;
+}
+.about-us {
+  grid-column: 2/4;
+  grid-row: 1/2;
+}
+
+.donut-1 {
+  grid-column: 3/4;
+  grid-row: 4/5;
+  align-self: center;
+}
+
+.stats-heading {
+  grid-column: 1/5;
+  grid-row: 3/4;
+}
+.donut-2 {
+  grid-column: 2/3;
+  grid-row: 4/5;
+  align-self: center;
+}
+
+p {
+  margin: 10px;
+}
+h1 {
+  margin: 20px;
+  font-size: 40px;
+}
+h2 {
+  font-size: 30px;
+}
