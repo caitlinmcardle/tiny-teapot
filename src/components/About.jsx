@@ -7,8 +7,8 @@ export default function About() {
       <p>56 cups of tea consumed this week</p>
       <p>179 lines of code written</p>
       <p>
-        At Tiny Teapot we want to create beautful looking websites that are easy
-        to interact with and will help your business grow.
+        At Tiny Teapot we want to create beautiful looking websites that are
+        easy to interact with and will help your business grow.
       </p>
       <p>
         We understand how important a website is to your business, so we won't
