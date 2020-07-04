@@ -2,13 +2,13 @@ import React from "react";
 import { Link } from "@reach/router";
 
 export default function NavBar() {
-  const logo = require("../img/logo-final.png");
+  const logo = require("../img/tiny_teapot_3.png");
   return (
     <nav className="nav">
       <ul className="nav-ul">
         <li className="nav-li">
           <Link className="nav-link" key="home" to="/">
-            <img alt="logo" src={logo} width="80" height="80" />
+            <img alt="logo" src={logo} width="100" height="100" />
           </Link>
         </li>
         <li className="nav-li">
