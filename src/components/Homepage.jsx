@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "@reach/router";
 
 export default function Homepage() {
   const video = require("../img/video.mp4");
@@ -11,9 +10,9 @@ export default function Homepage() {
           Your browser does not support the video tag.
         </video>
         <div className="video-content">
-          <Link className="homepage-link" key="about" to="/about">
+          <a className="homepage-link" href="./About.jsx">
             <button className="homepage-button">Start your journey</button>
-          </Link>
+          </a>
         </div>
       </div>
     </main>

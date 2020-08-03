@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "@reach/router";
 
 export default function NavBar() {
   const logo = require("../img/tiny_teapot_3.png");
@@ -7,29 +6,34 @@ export default function NavBar() {
     <nav className="nav">
       <ul className="nav-ul">
         <li className="nav-li">
-          <Link className="nav-link" key="home" to="/">
+          <a className="nav-link" href="./Homepage.jsx">
             <img alt="logo" src={logo} width="100" height="100" />
-          </Link>
+          </a>
         </li>
         <li className="nav-li">
-          <Link className="nav-link" key="about" to="/about">
+          <a className="nav-link" href="./About.jsx">
             About
-          </Link>
+          </a>
         </li>
         <li className="nav-li">
-          <Link className="nav-link" key="services" to="/services">
-            Services
-          </Link>
+          <a className="nav-link" href="./What.jsx">
+            What we do
+          </a>
         </li>
         <li className="nav-li">
-          <Link className="nav-link" key="portfolio" to="/portfolio">
+          <a className="nav-link" href="./How.jsx">
+            How we work
+          </a>
+        </li>
+        <li className="nav-li">
+          <a className="nav-link" href="./Portfolio.jsx">
             Portfolio
-          </Link>
+          </a>
         </li>
         <li className="nav-li">
-          <Link className="nav-link" key="contact" to="/contact">
+          <a className="nav-link" href="./Contact.jsx">
             Contact
-          </Link>
+          </a>
         </li>
       </ul>
     </nav>
