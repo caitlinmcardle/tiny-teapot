@@ -11,27 +11,22 @@ export default function NavBar() {
           </a>
         </li>
         <li className="nav-li">
-          <a className="nav-link" href="./About.jsx">
+          <a className="nav-link" href="#about-section">
             About
           </a>
         </li>
         <li className="nav-li">
-          <a className="nav-link" href="./What.jsx">
-            What we do
-          </a>
-        </li>
-        <li className="nav-li">
-          <a className="nav-link" href="./How.jsx">
+          <a className="nav-link" href="#how-section">
             How we work
           </a>
         </li>
         <li className="nav-li">
-          <a className="nav-link" href="./Portfolio.jsx">
+          <a className="nav-link" href="#portfolio-section">
             Portfolio
           </a>
         </li>
         <li className="nav-li">
-          <a className="nav-link" href="./Contact.jsx">
+          <a className="nav-link" href="#contact-section">
             Contact
           </a>
         </li>

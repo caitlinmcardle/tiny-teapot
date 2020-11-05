@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <main className="main">
+    <section id="contact-section">
       <h1>Get in touch</h1>
       <p>Email: caitlin@tinyteapotdesign.com</p>
       <p>LinkedIn</p>
@@ -22,6 +22,6 @@ export default function Contact() {
         </p>
         <button type="submit">Send</button>
       </form>
-    </main>
+    </section>
   );
 }
