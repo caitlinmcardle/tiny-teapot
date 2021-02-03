@@ -124,19 +124,19 @@ h3 {
 }
 #about-icons {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
   padding-bottom: 5rem;
 }
 #about-mountain {
-  width: 33%;
+  width: 25%;
   float: left;
 }
 #about-palette {
-  width: 33%;
+  width: 25%;
   float: left;
 }
 #about-handshake {
-  width: 33%;
+  width: 25%;
   float: left;
 }
 #palette-img {
@@ -168,19 +168,22 @@ h3 {
 }
 #what-we-do {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
 }
 #web-design {
   padding: 2rem;
-  width: 33%;
+  width: 25%;
+  float: left;
 }
 #seo {
   padding: 2rem;
-  width: 33%;
+  width: 25%;
+  float: left;
 }
 #responsive-design {
   padding: 2rem;
-  width: 33%;
+  width: 25%;
+  float: left;
 }
 
 #founder-section {
