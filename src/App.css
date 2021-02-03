@@ -85,33 +85,32 @@ li {
   border: 2px solid #ff8484;
   color: #ff8484;
 }
-h1 {
-  font-family: "Roboto", sans-serif;
-  color: #ff8484;
-  font-size: 60px;
-}
-h2,
-h3 {
-  font-family: "Roboto", sans-serif;
-  color: #ff8484;
-}
+
 .tea-countup {
   font-size: 40px;
+  color: white;
 }
 .code-countup {
   font-size: 40px;
+  color: white;
 }
 
 p {
   margin: 10px;
   font-size: 16px;
+  color: #3c6676;
 }
+
 h1 {
   margin: 20px;
-  font-size: 40px;
+  font-size: 3rem;
+  color: #3c6676;
+  font-family: "Abril Fatface", cursive;
 }
 h2 {
   font-size: 30px;
+  font-family: "Abril Fatface", cursive;
+  color: #3c6676;
 }
 h3 {
   font-size: 25px;
@@ -126,6 +125,7 @@ h3 {
   grid-area: "founder";
   display: flex;
   justify-content: center;
+  background-color: #ff8484;
 }
 .countup {
   grid-area: "countup";
@@ -133,7 +133,15 @@ h3 {
   align-items: center;
   display: flex;
   flex-direction: row;
+  background-color: #3c6676;
+  color: white;
   border: 1px solid red;
+}
+.tea {
+  color: white;
+}
+.code {
+  color: white;
 }
 #how-section {
   grid-area: "how";
@@ -154,6 +162,9 @@ h3 {
   justify-content: center;
   border: 1px solid purple;
 }
+.contact-p {
+  color: #ff8484;
+}
 #about-list {
   display: flex;
   flex-direction: column;
@@ -162,8 +173,11 @@ h3 {
   display: flex;
   flex-direction: column;
 }
-#founder-h2 {
+#founder-h1 {
   padding-top: 2rem;
+}
+.founder-p {
+  color: white;
 }
 #what-h2 {
   padding-top: 2rem;
