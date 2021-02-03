@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function Homepage() {
-  const video = require("../img/cake.mp4");
+  const video = require("../img/video.mp4");
   return (
     <main className="main">
       <div className="video-container">

@@ -7,6 +7,7 @@ import Countup from "./components/Countup";
 import How from "./components/How";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
+import Founder from "./components/Founder";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <NavBar />
       <Homepage />
       <About />
+      <Founder/>
       <Countup />
       <How />
       <Portfolio />

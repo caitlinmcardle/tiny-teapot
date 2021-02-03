@@ -6,7 +6,7 @@ export default function Contact() {
       <h1>Get in touch</h1>
       <p>Email: caitlin@tinyteapotdesign.com</p>
       <p>LinkedIn</p>
-      <h2>Send a quick message</h2>
+      <h2>Send us a message</h2>
       <form>
         <p className="table-row">
           <label for="name">Name: </label>
