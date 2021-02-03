@@ -118,9 +118,71 @@ h3 {
 #about-section {
   grid-area: "about";
   display: flex;
+  flex-direction: column;
   justify-content: center;
   border: 1px solid blue;
 }
+#about-icons {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 5rem;
+}
+#about-mountain {
+  width: 33%;
+  float: left;
+}
+#about-palette {
+  width: 33%;
+  float: left;
+}
+#about-handshake {
+  width: 33%;
+  float: left;
+}
+#palette-img {
+  width: 7rem;
+  height: 7rem;
+}
+#mountain-img {
+  width: 7rem;
+  height: 7rem;
+}
+#handshake-img {
+  width: 7rem;
+  height: 7rem;
+}
+#what-h2 {
+  padding-top: 2rem;
+}
+#design-img {
+  width: 7rem;
+  height: 7rem;
+}
+#responsive-img {
+  width: 7rem;
+  height: 7rem;
+}
+#seo-img {
+  width: 7rem;
+  height: 7rem;
+}
+#what-we-do {
+  display: flex;
+  flex-direction: row;
+}
+#web-design {
+  padding: 2rem;
+  width: 33%;
+}
+#seo {
+  padding: 2rem;
+  width: 33%;
+}
+#responsive-design {
+  padding: 2rem;
+  width: 33%;
+}
+
 #founder-section {
   grid-area: "founder";
   display: flex;
@@ -178,48 +240,4 @@ h3 {
 }
 .founder-p {
   color: white;
-}
-#what-h2 {
-  padding-top: 2rem;
-}
-#design-img {
-  width: 7rem;
-  height: 7rem;
-}
-#responsive-img {
-  width: 7rem;
-  height: 7rem;
-}
-#seo-img {
-  width: 7rem;
-  height: 7rem;
-}
-#what-we-do {
-  display: flex;
-  flex-direction: row;
-}
-#web-design {
-  padding: 2rem;
-}
-#seo {
-  padding: 2rem;
-}
-#responsive-design {
-  padding: 2rem;
-}
-#palette-img {
-  width: 7rem;
-  height: 7rem;
-}
-#mountain-img {
-  width: 7rem;
-  height: 7rem;
-}
-#handshake-img {
-  width: 7rem;
-  height: 7rem;
-}
-#about-icons {
-  display: flex;
-  flex-direction: column;
 }
