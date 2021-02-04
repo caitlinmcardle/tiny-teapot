@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   display: grid;
-  grid-template-rows: 6rem auto 60rem 30rem 15rem 30rem 30rem 40rem 40rem;
+  grid-template-rows: 6rem auto 60rem 30rem 15rem 30rem 30rem 60rem;
   grid-template-areas: "nav" "main" "about" "founder" "countup" "how" "portfolio" "contact";
 }
 .nav {
@@ -103,12 +103,12 @@ p {
 
 h1 {
   margin: 20px;
-  font-size: 3rem;
+  font-size: 4rem;
   color: #3c6676;
   font-family: "Abril Fatface", cursive;
 }
 h2 {
-  font-size: 30px;
+  font-size: 3rem;
   font-family: "Abril Fatface", cursive;
   color: #3c6676;
 }
@@ -125,7 +125,7 @@ h3 {
 #about-icons {
   display: flex;
   justify-content: center;
-  padding-bottom: 5rem;
+  padding-bottom: 2rem;
 }
 #about-mountain {
   width: 25%;
@@ -140,16 +140,16 @@ h3 {
   float: left;
 }
 #palette-img {
-  width: 7rem;
-  height: 7rem;
+  width: 10rem;
+  height: 10rem;
 }
 #mountain-img {
-  width: 7rem;
-  height: 7rem;
+  width: 10rem;
+  height: 10rem;
 }
 #handshake-img {
-  width: 7rem;
-  height: 7rem;
+  width: 10rem;
+  height: 10rem;
 }
 #what-h2 {
   padding-top: 2rem;
@@ -225,7 +225,7 @@ h3 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 1px solid purple;
+  background-color: #c3cad0;
 }
 .contact-p {
   color: #ff8484;
@@ -243,4 +243,38 @@ h3 {
 }
 .founder-p {
   color: white;
+}
+input {
+  border: 0.2rem solid #3c6676;
+  border-radius: 0.4rem;
+  width: 25%;
+  padding: 1rem;
+  background-color: #c3cad0;
+}
+#message {
+  padding: none;
+  height: 7rem;
+}
+#contact-button {
+  background-color: #c3cad0;
+  color: #3c6676;
+  border: 0.2rem solid #3c6676;
+  border-radius: 0.4rem;
+  width: 15%;
+  padding: 1rem 1.2rem;
+  font-size: 1rem;
+}
+#contact-button:hover {
+  border: 0.2rem solid #ff8484;
+  color: #ff8484;
+}
+#email-img {
+  width: 3rem;
+  height: 3rem;
+}
+.email-p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
 }

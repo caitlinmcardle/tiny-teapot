@@ -3,8 +3,7 @@ import React from "react";
 export default function About() {
   return (
     <section id="about-section">
-        <h1 id="about-header">About us</h1>
-        
+        <h1 id="about-header">About us</h1>        
         <section id="about-icons">
         <section id="about-palette">
           <img id="palette-img" src={require('../img/noun_pallete.png')} alt="palette" />
@@ -36,17 +35,6 @@ export default function About() {
         <p className="about=p">Search Engine Optimisation</p>
         </section>
         </section>
-
-        
-        
-       
-        
-        
-      
-          
-          
-        
-      
     </section>
   );
 }
