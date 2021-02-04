@@ -248,8 +248,18 @@ a {
 #portfolio-section {
   grid-area: "portfolio";
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  border: 1px solid orange;
+  background-color: #ff8484;
+}
+
+.portfolio-example {
+  width: 25%;
+  height: auto;
+  margin: 2rem;
+}
+.portfolio-example:hover {
+  border: 0.2rem solid #3c6676;
 }
 #contact-section {
   grid-area: "contact";
