@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   display: grid;
-  grid-template-rows: 6rem auto 60rem 30rem 15rem 30rem 30rem 60rem;
+  grid-template-rows: 6rem auto 60rem 40rem 15rem 30rem 30rem 60rem;
   grid-template-areas: "nav" "main" "about" "founder" "countup" "how" "portfolio" "contact";
 }
 .nav {
@@ -189,8 +189,17 @@ h3 {
 #founder-section {
   grid-area: "founder";
   display: flex;
+  flex-direction: column;
   justify-content: center;
   background-color: #ff8484;
+}
+#founder-content {
+  padding-top: 3rem;
+  display: flex;
+  justify-content: center;
+}
+#girl {
+  float: left;
 }
 .countup {
   grid-area: "countup";
@@ -237,12 +246,17 @@ h3 {
 #founder-list {
   display: flex;
   flex-direction: column;
+  float: left;
 }
 #founder-h1 {
   padding-top: 2rem;
 }
 .founder-p {
   color: white;
+}
+#girl-img {
+  width: 30rem;
+  height: 30rem;
 }
 input {
   border: 0.2rem solid #3c6676;
