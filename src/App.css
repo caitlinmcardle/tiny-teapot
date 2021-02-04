@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   display: grid;
-  grid-template-rows: 6rem auto 60rem 40rem 15rem 30rem 30rem 60rem;
+  grid-template-rows: 6rem auto 60rem 40rem 15rem 60rem 30rem 60rem;
   grid-template-areas: "nav" "main" "about" "founder" "countup" "how" "portfolio" "contact";
 }
 .nav {
@@ -112,8 +112,11 @@ h2 {
   font-family: "Abril Fatface", cursive;
   color: #3c6676;
 }
-h3 {
-  font-size: 25px;
+
+h4 {
+  font-size: 1.5rem;
+  font-family: "Abril Fatface", cursive;
+  color: #3c6676;
 }
 #about-section {
   grid-area: "about";
@@ -220,9 +223,28 @@ h3 {
 #how-section {
   grid-area: "how";
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  border: 1px solid green;
 }
+#how-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.how-steps {
+  margin-left: 15%;
+  display: inline-flex;
+  align-items: center;
+  float: left;
+}
+.how-p {
+  color: #ff8484;
+  font-size: 1.2rem;
+}
+a {
+  color: #ff8484;
+}
+
 #portfolio-section {
   grid-area: "portfolio";
   display: flex;
@@ -264,6 +286,7 @@ input {
   width: 25%;
   padding: 1rem;
   background-color: #3c6676;
+  color: white;
 }
 ::placeholder {
   color: white;
