@@ -234,7 +234,7 @@ h3 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #c3cad0;
+  background-color: #3c6676;
 }
 .contact-p {
   color: #ff8484;
@@ -259,20 +259,23 @@ h3 {
   height: 30rem;
 }
 input {
-  border: 0.2rem solid #3c6676;
+  border: 0.2rem solid white;
   border-radius: 0.4rem;
   width: 25%;
   padding: 1rem;
-  background-color: #c3cad0;
+  background-color: #3c6676;
+}
+::placeholder {
+  color: white;
 }
 #message {
   padding: none;
   height: 7rem;
 }
 #contact-button {
-  background-color: #c3cad0;
-  color: #3c6676;
-  border: 0.2rem solid #3c6676;
+  background-color: #3c6676;
+  color: white;
+  border: 0.2rem solid white;
   border-radius: 0.4rem;
   width: 15%;
   padding: 1rem 1.2rem;
@@ -291,4 +294,11 @@ input {
   align-items: center;
   justify-content: center;
   font-size: 1.5rem;
+  color: white;
+}
+#contact-h1 {
+  color: white;
+}
+#contact-h2 {
+  color: #ff8484;
 }
