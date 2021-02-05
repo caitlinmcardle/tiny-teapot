@@ -16,7 +16,7 @@ export default function About() {
           <section id="about-handshake">
           <img id="handshake-img" src={require('../img/noun_handshake.png')} alt="handshake" />
           <p className="about-p">
-            We offer a friendly and straight forward design process with no confusing tech language</p>
+            We offer a friendly and straight forward design process with no confusing terminology</p>
           </section>
         </section>   
           
@@ -28,7 +28,7 @@ export default function About() {
         </section>
         <section id="responsive-design">
         <img id="responsive-img" src={require('../img/noun_design_responsive.png')} alt="responsive design" />
-        <p className="about=p">Responsive Web Design</p>
+        <p className="about=p">Responsive Design</p>
         </section>
         <section id="seo">
         <img id="seo-img" src={require('../img/noun_design_light_bulb.png')} alt="seo" />

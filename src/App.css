@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   display: grid;
-  grid-template-rows: 6rem auto 60rem 40rem 15rem 60rem 30rem 60rem;
+  grid-template-rows: 6rem auto 60rem 40rem 15rem 60rem 30rem 20rem;
   grid-template-areas: "nav" "main" "about" "founder" "countup" "how" "portfolio" "contact";
 }
 .nav {
@@ -41,8 +41,8 @@ li {
   padding: 0.5rem;
 }
 .background-video {
-  height: 100%;
-  width: 100%;
+  height: auto;
+  width: 100vw;
   margin: 0;
 }
 .homepage-content {
@@ -302,6 +302,7 @@ input {
 }
 ::placeholder {
   color: white;
+  font-size: 1rem;
 }
 #message {
   padding: none;
@@ -331,9 +332,28 @@ input {
   font-size: 1.5rem;
   color: white;
 }
+.contact-p {
+  color: #ff8484;
+}
 #contact-h1 {
   color: white;
 }
 #contact-h2 {
   color: #ff8484;
+}
+@media only screen and (max-width: 960px) {
+  .video-container {
+    display: none;
+  }
+  .background-video {
+    display: none;
+  }
+  #girl {
+    width: 15rem;
+    height: 15rem;
+  }
+  #girl-img {
+    width: 15rem;
+    height: 15rem;
+  }
 }
