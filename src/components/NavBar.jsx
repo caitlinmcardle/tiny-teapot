@@ -5,7 +5,7 @@ export default function NavBar() {
   return (
     <nav className="nav">
       <ul className="nav-ul">
-        <li className="nav-li">
+        <li className="nav-li" id="nav-logo">
           {/* <a className="nav-link" href="./Homepage.jsx"> */}
             <img alt="logo" src={logo} width="100" height="100" />
           {/* </a> */}
