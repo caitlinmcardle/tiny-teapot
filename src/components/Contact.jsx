@@ -8,7 +8,7 @@ export default function Contact() {
       {/* <h2 id="contact-h2">Send us a message</h2> */}
       {/* <p className="contact-p">Tell us about your business, budget and what you'd like your website to do</p> */}
       
-      {/* <form>
+      <form name="contact" method="POST" data-netlify="true">
         <p className="table-row">
           <label for="name"></label>
           <input id="name" type="name" placeholder="Name" />
@@ -22,7 +22,7 @@ export default function Contact() {
           <input id="message" type="text" placeholder="Message"/>
         </p>
         <button id="contact-button" type="submit">Send</button>
-      </form> */}
+      </form>
     </section>
   );
 }
