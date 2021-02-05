@@ -351,10 +351,13 @@ input {
   .background-video {
     display: none;
   }
+
   #logo {
     display: flex;
     width: 100%;
-    height: auto;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
   }
   #nav-logo {
     display: none;
