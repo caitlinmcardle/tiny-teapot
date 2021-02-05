@@ -357,3 +357,7 @@ input {
     height: 15rem;
   }
 }
+@viewport {
+  zoom: 1;
+  width: device-width;
+}

@@ -6,9 +6,9 @@ export default function NavBar() {
     <nav className="nav">
       <ul className="nav-ul">
         <li className="nav-li">
-          <a className="nav-link" href="./Homepage.jsx">
+          {/* <a className="nav-link" href="./Homepage.jsx"> */}
             <img alt="logo" src={logo} width="100" height="100" />
-          </a>
+          {/* </a> */}
         </li>
         <li className="nav-li">
           <a className="nav-link" href="#about-section">

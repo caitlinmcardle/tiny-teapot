@@ -5,7 +5,7 @@ export default function Homepage() {
   return (
     <main className="main">
       <div className="video-container">
-        <video className="background-video" loop autoPlay>
+        <video className="background-video" loop autoPlay muted>
           <source src={video} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
