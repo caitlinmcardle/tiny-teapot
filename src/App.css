@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   display: grid;
-  grid-template-rows: 6rem auto 60rem 40rem 15rem 60rem 30rem 40rem;
+  grid-template-rows: 6rem auto 60rem 40rem 15rem 60rem 30rem 20rem;
   grid-template-areas: "nav" "main" "about" "founder" "countup" "how" "portfolio" "contact";
 }
 .nav {
